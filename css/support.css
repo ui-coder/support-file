@@ -23,9 +23,11 @@
  * <link rel="stylesheet" media="all" href="your-directory/custom.css" />  
 ==============================================================================*/
 
+
 /*##############################################################################
    Element Style
 ##############################################################################*/
+
 
 /* background color
 ==============================================================================*/
@@ -49,7 +51,9 @@
 .bg-color-plummy {
     background-color: #3E4A62;
 }
+
 /* additinal styling */
+
 
 /*------------- text bgs -------------*/
 
@@ -73,8 +77,10 @@
     border-left: 5px solid #7cd68d !important;
     padding: 20px !important;
 }
+
 /* 
 ==============================================================================*/
+
 
 /* animation / transition effect (menu)
 ==============================================================================*/
@@ -123,6 +129,7 @@
     margin-right: -17px !important;
     transition-duration: 1s;
 }
+
 /* borders 
 ==============================================================================*/
 
@@ -165,6 +172,7 @@
 .bdr-l3 {
     border-left: 3px solid #000;
 }
+
 /* outline
 ==============================================================================*/
 
@@ -192,107 +200,136 @@
 .outline-white {
     outline: 1px solid #fff !important;
 }
+
 /* text size
 ==============================================================================*/
 
-.text-mn {
+.txt-mn {
     font-size: 10px !important;
     line-height: 12px !important;
     letter-spacing: 1px;
 }
-.text-sm {
+.txt-sm {
     font-size: 12px !important;
     line-height: 15px;
 }
-.text-md {
+.txt-md {
     font-size: 14px !important;
 }
-.text-lg {
+.txt-lg {
     font-size: 16px !important;
 }
-.text-xl {
+.ext-xl {
     font-size: 18px !important;
 }
-.text-2xl {
+.txt-2xl {
     font-size: 20px !important;
 }
-.text-3xl {
+.txt-3xl {
     font-size: 22px !important;
 }
-.text-4xl {
+.txt-4xl {
     font-size: 24px !important;
 }
-.text-5xl {
+.txt-5xl {
     font-size: 26px !important;
 }
-.text-6xl {
+.txt-6xl {
     font-size: 28px !important;
 }
-.text-7xl {
+.txt-7xl {
     font-size: 30px !important;
 }
-/*----------- text align -------------*/
 
-.text-justify {
+/*
+    Text alignment
+--------------------------*/
+
+.txt-left {
+    text-align: left;
+}
+.txt-right {
+    text-align: right;
+}
+.txt-center {
+    text-align: center;
+}
+.txt-justify {
     text-align: justify;
 }
+.txt-all {
+    text-align: justify-all;
+}
+.txt-match {
+    text-align: match-parent;
+}
+.txt-start {
+    text-align: start;
+}
+.txt-end {
+    text-align: end;
+}
+
 /* text color
 ==============================================================================*/
 
-.text-black {
+.txt-black {
     color: #000 !important;
 }
-.text-blue {
+.txt-blue {
     color: #3489b9 !important;
 }
-.text-green {
+.txt-green {
     color: #00b900 !important;
 }
-.text-grey {
+.txt-grey {
     color: #888 !important;
 }
-.text-lime {
+.txt-lime {
     color: #d0f18c !important;
 }
-.text-orange {
+.txt-orange {
     color: #d39925 !important;
 }
-.text-red {
+.txt-red {
     color: #b00 !important;
 }
-.text-white {
+.txt-white {
     color: #fff !important;
 }
+
 /*----------- more colors ------------*/
 
-.text-hov-blue {
+.txt-hov-blue {
     color: #3489b9 !important;
     text-decoration: underline;
 }
-.text-hov-blue:hover {
+.txt-hov-blue:hover {
     color: #eee;
     text-decoration: none;
 }
-.text-bbb {
+.txt-bbb {
     color: #bbb !important;
 }
-.text-1b1b1b {
+.txt-1b1b1b {
     color: #1b1b1b !important;
 }
+
 /*-------------- alerts --------------*/
 
-.text-info {
+.txt-info {
     color: #3489b9 !important;
 }
-.text-warning {
+.txt-warning {
     color: #be8b24 !important;
 }
-.text-danger {
+.txt-danger {
     color: #dd1625 !important;
 }
-.text-success {
+.txt-success {
     color: #00953a !important;
 }
+
 /* panels
 ==============================================================================*/
 
@@ -377,6 +414,9 @@
     background-color: rgba(218, 255, 232, 0.94);
     color: #288d50 !important;
 }
+.jumbo-container {
+    margin-top: -40px;
+}
 .jumbo-pane {
     background-color: #fff;
     height: 50px;
@@ -428,9 +468,6 @@
     border-top: 1px solid #bbb !important;
     margin: 20px 0 !important;
 }
-.jumbo-container {
-    margin-top: -40px;
-}
 .container-inverse {
     background-color: #1b1b1b !important;
 }
@@ -443,6 +480,7 @@
     margin-top: 1px \9;
     /* IE-9 */
 }
+
 /* menu background
 ==============================================================================*/
 
@@ -481,6 +519,7 @@
 .menu-success:hover {
     border-left: 5px solid #7cd68d !important;
 }
+
 /* span
 ==============================================================================*/
 
@@ -491,8 +530,10 @@
 .span-nested-12 {
     margin-left: 20px !important;
 }
+
 /* margins 
 ==============================================================================*/
+
 
 /*--------------- plus ---------------*/
 
@@ -562,6 +603,7 @@
 .mt50 {
     margin-top: 50px !important;
 }
+
 /*-------------- minus ---------------*/
 
 .mt-1 {
@@ -615,6 +657,7 @@
 .mt-30 {
     margin-top: -30px !important;
 }
+
 /* img-margins
 ==============================================================================*/
 
@@ -636,6 +679,7 @@
 .img-ml20 {
     margin-left: 20px !important;
 }
+
 /* img opacity
 ==============================================================================*/
 
@@ -651,6 +695,7 @@
 .img-opac-inv:hover {
     opacity: .7;
 }
+
 /* block padding
 ==============================================================================*/
 
@@ -660,6 +705,7 @@
 .dropdown-padding {
     padding: 15px !important;
 }
+
 /* block margins
 ==============================================================================*/
 
@@ -678,6 +724,7 @@
 .block-ml20 {
     margin-left: 20px !important;
 }
+
 /* form margins
 ==============================================================================*/
 
@@ -696,15 +743,27 @@
 .form-block-ml20 {
     margin-left: 20px !important;
 }
+
 /* inputs
 ==============================================================================*/
 
-.input-mn {} .input-sm {} .input-md {} .input-lg {} .input-xlg {} .input-2xl {} .input-3xl {}
+.input-mn {}
+.input-sm {}
+.input-md {}
+.input-lg {}
+.input-xlg {}
+.input-2xl {}
+.input-3xl {}
+
 /* paddings 
 ==============================================================================*/
 
+
 /*--------------- plus ---------------*/
 
+.padding0 {
+    padding: 0 !important;
+}
 .padding1 {
     padding: 1px !important;
 }
@@ -750,6 +809,7 @@
 .padding20 {
     padding: 20px !important;
 }
+
 /*----------- padding-top ------------*/
 
 .pt0 {
@@ -836,6 +896,7 @@
 .pt60 {
     padding-top: 60px !important;
 }
+
 /*---------- padding-bottom ----------*/
 
 .pb0 {
@@ -919,6 +980,7 @@
 .pb60 {
     padding-bottom: 60px !important;
 }
+
 /*----------- padding-left -----------*/
 
 .pl0 {
@@ -1002,6 +1064,7 @@
 .pl60 {
     padding-left: 60px !important;
 }
+
 /*----------- padding-right ----------*/
 
 .pr0 {
@@ -1085,6 +1148,7 @@
 .pr60 {
     padding-right: 60px !important;
 }
+
 /* rating - unicode - utf8 (graphics)
 ================================================================================ 
  * star = &#9734; &#10025; 
@@ -1201,27 +1265,29 @@
     content: "\e005";
     position: inherit;
 }
+
 /* symbol color
 ==============================================================================*/
 
-.symbol-color-abc {
+.symbl-color-abc {
     color: #abc;
 }
-.symbol-color-abcdef {
+.symbl-color-abcdef {
     color: #abcdef;
 }
-.symbol-color-abccba {
+.symbl-color-abccba {
     color: #abccba;
 }
-.symbol-color-deffed {
+.symbl-color-deffed {
     color: #deffed;
 }
-.symbol-color-00dada {
+.symbl-color-00dada {
     color: #00dada;
 }
-.symbol-color-def {
+.symbl-color-def {
     color: #def;
 }
+
 /* scales
 ==============================================================================*/
 
@@ -1273,6 +1339,7 @@
     transform: scale(1.6);
     transition-duration: 1s;
 }
+
 /* thumbnail margins
 ==============================================================================*/
 
