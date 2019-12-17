@@ -240,6 +240,21 @@
 .txt-7xl {
     font-size: 30px !important;
 }
+.txt-8xl {
+   font-size: 32px !important;
+}
+.txt-9xl {
+   font-size: 34px !important;
+}
+.txt-10xl {
+   font-size: 36px !important;
+}
+.txt-11xl {
+   font-size: 38px !important;
+}
+.txt-12xl {
+   font-size: 40px !important;
+}
 
 /*
     Text alignment
