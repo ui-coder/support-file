@@ -84,17 +84,22 @@
 /* text size
 ==============================================================================*/
 
-.text-mn 
-.text-sm 
-.text-md 
-.text-lg 
-.text-xl 
-.text-2xl 
-.text-3xl 
-.text-4xl 
-.text-5xl
-.text-6xl 
-.text-7xl 
+.txt-mn 
+.txt-sm 
+.txt-md 
+.txt-lg 
+.txt-xl 
+.txt-2xl 
+.txt-3xl 
+.txt-4xl 
+.txt-5xl
+.txt-6xl 
+.txt-7xl
+.txt-8xl
+.txt-9xl
+.txt-10xl
+.txt-11xl
+.txt-12xl  
 
 /*----------- text align -------------*/
 
@@ -103,27 +108,27 @@
 /* text color
 ==============================================================================*/
 
-.text-black
-.text-blue 
-.text-green
-.text-grey
-.text-lime 
-.text-orange 
-.text-red 
-.text-white 
+.txt-black
+.txt-blue 
+.txt-green
+.txt-grey
+.txt-lime 
+.txt-orange 
+.txt-red 
+.txt-white 
 
 /*----------- more colors ------------*/
 
-.text-hov-blue 
-.text-bbb 
-.text-1b1b1b 
+.txt-hov-blue 
+.txt-bbb 
+.txt-1b1b1b 
 
 /*-------------- alerts --------------*/
 
-.text-info 
-.text-warning
-.text-danger 
-.text-success 
+.txt-info 
+.txt-warning
+.txt-danger 
+.txt-success 
 
 /*--------- additinal styling ---------*/
 
